@@ -1,0 +1,15 @@
+project:
+  name: model_name
+  version: v1
+
+aws:
+  region: us-east-1
+  bucket: ml-learning-prueba
+
+training:
+  model: catboost
+  learning_rate: 0.05
+  iterations: 500
+
+mlflow:
+  experiment_name: model_name_v1
